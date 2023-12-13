@@ -1,0 +1,8 @@
+# sonarqube-chart/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jdbc-driver
+data:
+  mssql-jdbc-driver.jar: |
+    [binary data of Microsoft JDBC Driver jar file]
