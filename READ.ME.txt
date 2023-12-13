@@ -1,0 +1,14 @@
+Create a Helm Chart Directory Structure:
+
+sonarqube-chart/
+├── Chart.yaml
+├── values.yaml
+└── templates/
+    ├── deployment.yaml
+    ├── configmap.yaml
+    ├── service.yaml
+    └── networkpolicy.yaml
+
+
+helm package sonarqube-chart
+helm install sonarqube-release ./sonarqube-chart-0.1.0.tgz

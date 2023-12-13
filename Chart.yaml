@@ -1,0 +1,5 @@
+# sonarqube-chart/Chart.yaml
+apiVersion: v2
+name: sonarqube-chart
+description: A Helm chart for deploying SonarQube
+version: 0.1.0
