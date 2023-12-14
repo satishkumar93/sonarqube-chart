@@ -1,6 +1,6 @@
 # sonarqube-chart/values.yaml
 sonarqube:
-  image: sonarqube:9.8.0-community
+  image: sonarqube:9.9.0-community
   jdbcUrl: jdbc:sqlserver://20.106.168.201:1433/SonarQube
   jdbcUsername: APP_SONARQUBE
   jdbcPassword: FehKroim54
